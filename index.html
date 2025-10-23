@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Бібліотека українських книг</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    main {
+      flex: 1;
+    }
+
+    header {
+      background-color: #2b6cb0;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white !important;
+    }
+
+    .welcome {
+      margin: 30px auto;
+      padding: 30px;
+      max-width: 900px;
+      background-color: #dbeeff;
+      border-left: 8px solid #1e90ff;
+      font-size: 1.3rem;
+    }
+
+    .books {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .book {
+      background-color: #f8f9fa;
+      border: 1px solid #dee2e6;
+      padding: 15px;
+      width: 250px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .book h3 {
+      margin-top: 10px;
+    }
+
+    .book img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #2b6cb0;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: auto;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Бібліотека українських книг</h1>
+  </header>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Головна</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">Про сайт</a></li>
+          <li class="nav-item"><a class="nav-link" href="bible.html">Бібліотека</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ 
+  <main>
+
+    <section class="welcome container">
+      <h2>Ласкаво просимо!</h2>
+      <p>Вітаємо у нашій електронній бібліотеці! Тут ви знайдете популярні українські книги та легкий доступ до бібліотечного каталогу.</p>
+
+      <h3>Топ-3 актуальні українські книги</h3>
+      <div class="books">
+        <div class="book">
+          <h3>Я бачу вас цікавить пітьма</h3>
+          <p>Автор: Ілларіон Павлюк • 2023</p>
+          <img src="https://upload.wikimedia.org/wikipedia/uk/a/ad/%22%D0%AF_%D0%B1%D0%B0%D1%87%D1%83%2C_%D0%B2%D0%B0%D1%81_%D1%86%D1%96%D0%BA%D0%B0%D0%B2%D0%B8%D1%82%D1%8C_%D0%BF%D1%96%D1%82%D1%8C%D0%BC%D0%B0%22_%D0%86%D0%BB%D0%BB%D0%B0%D1%80%D1%96%D0%BE%D0%BD_%D0%9F%D0%B0%D0%B2%D0%BB%D1%8E%D0%BA%2C_%D0%BE%D0%B1%D0%BA%D0%BB%D0%B0%D0%B4%D0%B8%D0%BD%D0%BA%D0%B0.jpg" alt="Я бачу вас цікавить пітьма">
+          <p>Трилер, що став бестселером 2023 року з понад 44 000 проданих примірників.</p>
+        </div>
+        <div class="book">
+          
+          <h3>Колонія</h3>
+          <p>Автор: Макс Кідрук • 2023</p>
+          <img src="https://tamarinbooks.com/wp-content/uploads/2023/04/kidruk_new-1.jpg" alt="Колонія">
+          <p>Фантастичний роман, що потрапив до топ-10 найпопулярніших книг 2023 року.</p>
+        </div>
+        <div class="book">
+          <h3>Танці з кістками</h3>
+          <p>Автор: Андрій Сем’янків • 2023</p>
+          <img src="https://static.yakaboo.ua/media/cloudflare/product/webp/352x340/i/m/image00001_1_334_98712.jpg" alt="Танці з кістками">
+          <p>Медичний трилер, що увійшов до топ-10 найпопулярніших книг 2023 року.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="#about" class="container mt-5">
+      <h2 id="about">Про сайт</h2>
+      <p>Ця електронна бібліотека створена для зручного доступу до українських книг онлайн. Мета — забезпечити швидкий перегляд та підбірку актуальних видань.</p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Електронна бібліотека
+  </footer>
+</body>
+
+</html>
+
